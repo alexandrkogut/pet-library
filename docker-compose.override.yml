@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  web:
+    ports:
+      - "8085:80"
+
+  postgres:
+    ports:
+      - "5435:5432"
